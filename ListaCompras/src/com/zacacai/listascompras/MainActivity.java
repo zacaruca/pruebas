@@ -1,5 +1,5 @@
 package com.zacacai.listascompras;
-
+//franc patata
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -51,7 +51,7 @@ public class MainActivity extends SherlockActivity {
 						Toast.LENGTH_SHORT).show();
 				return true;
 
-				// --Añadimos el caso para cuando se pulse el boton home
+				// --Aï¿½adimos el caso para cuando se pulse el boton home
 
 			case android.R.id.home:
 				Toast.makeText(this, "Has pulsado el Home del Action Bar",
@@ -73,7 +73,7 @@ public class MainActivity extends SherlockActivity {
 
 	private void CrearMenu(Menu menu) {
 
-		MenuItem item1 = menu.add(0, 0, 0, "Añadir Lista");
+		MenuItem item1 = menu.add(0, 0, 0, "Aï¿½adir Lista");
 		{
 			// --Copio las imagenes que van en cada item
 			item1.setIcon(android.R.drawable.ic_menu_edit);
